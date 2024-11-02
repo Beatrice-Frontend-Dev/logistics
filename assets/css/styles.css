@@ -83,6 +83,7 @@ section {
   width: 100%;
   padding: 0.9rem 3.5rem;
   background: rgba(0, 0, 0, 0.8);
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
   z-index: 1000;
 }
 
@@ -482,7 +483,7 @@ section {
   color: rgb(128, 128, 128);
   font-size: 1.2rem;
   font-weight: 700;
-  background-color: #212121;
+  background-color: #020202;
   padding: 1.4rem;
   cursor: pointer;
 }

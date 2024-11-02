@@ -1,3 +1,11 @@
+//Toggle navbar
+function toggleNav() {
+  const navLinks = document.getElementById("navIcons");
+  // Toggle the 'active' class to show/hide the navigation links
+  navLinks.classList.toggle("active");
+}
+
+//Sticky header
 window.addEventListener("scroll", function () {
   const header = document.querySelector(".header");
   if (window.scrollY > 50) {

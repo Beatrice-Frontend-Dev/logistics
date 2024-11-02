@@ -26,8 +26,35 @@
     background-repeat: no-repeat;
   }
 
+  .top {
+    display: none;
+  }
+
+  .header,
+  .header.scrolled {
+    background-color: #020202;
+    padding: 1rem 2.2rem;
+  }
+
   .nav-icons {
     display: none;
+    flex-direction: column;
+    position: absolute;
+    background-color: rgba(10, 33, 57, 0.895);
+    top: 82px;
+    height: 100vh;
+    right: 0;
+    width: 55%;
+    text-align: center;
+    z-index: 5;
+  }
+
+  .nav-icons.active {
+    display: flex;
+  }
+
+  .nav-icons li {
+    margin-bottom: 1rem;
   }
 
   .burger {
@@ -131,6 +158,12 @@
     background-size: cover;
     background-position: top center;
     background-repeat: no-repeat;
+  }
+
+  .header,
+  .header.scrolled {
+    background-color: #0a0909;
+    padding: 1rem 2.2rem;
   }
 
   .nav-icons {
