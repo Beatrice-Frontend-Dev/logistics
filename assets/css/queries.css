@@ -33,7 +33,7 @@
   .header,
   .header.scrolled {
     background-color: #020202;
-    padding: 1rem 2.2rem;
+    padding: 1rem 2rem;
   }
 
   .nav-icons {
@@ -163,7 +163,7 @@
   .header,
   .header.scrolled {
     background-color: #0a0909;
-    padding: 1rem 2.2rem;
+    padding: 1rem 1.4rem;
   }
 
   .nav-icons {
@@ -286,6 +286,12 @@
 }
 
 @media (max-width: 700px) {
+  .header,
+  .header.scrolled {
+    background-color: #0a0909;
+    padding: 1rem 1.4rem;
+  }
+
   .newsletter-div {
     padding: 3rem 3rem;
   }
@@ -296,6 +302,12 @@
 }
 
 @media (max-width: 600px) {
+  .header,
+  .header.scrolled {
+    background-color: #0a0909;
+    padding: 1rem 1.4rem;
+  }
+
   .newsletter-div {
     padding: 3rem 3.5rem;
   }
@@ -310,8 +322,14 @@
 }
 
 @media (max-width: 480px) {
+  .header,
+  .header.scrolled {
+    background-color: #0a0909;
+    padding: 1rem 1.4rem;
+  }
+
   .newsletter-div {
-    padding: 3rem 3.5rem;
+    padding: 3rem 2.5rem;
   }
 
   .newsletter-div p {
