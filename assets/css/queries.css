@@ -39,13 +39,16 @@
   .nav-icons {
     display: none;
     flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    row-gap: 2.4rem;
     position: absolute;
     background-color: rgba(10, 33, 57, 0.895);
     top: 82px;
     height: 100vh;
     right: 0;
     width: 55%;
-    text-align: center;
+    padding-top: 2.3rem;
     z-index: 5;
   }
 
