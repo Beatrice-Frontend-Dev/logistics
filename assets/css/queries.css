@@ -151,6 +151,11 @@
     font-size: 2rem;
     text-align: center;
   }
+
+  .div-map-locate {
+    background-color: #d6d5d5;
+    padding: 2rem 0;
+  }
 }
 
 @media (max-width: 768px) {
@@ -318,6 +323,11 @@
     color: #24416b;
     font-size: 1.7rem;
   }
+
+  .div-map-locate {
+    background-color: #d6d5d5;
+    padding: 2rem 0;
+  }
 }
 
 @media (max-width: 700px) {
@@ -325,6 +335,11 @@
   .header.scrolled {
     background-color: #0a0909;
     padding: 1rem 1.4rem;
+  }
+
+  .div-map-locate {
+    background-color: #d6d5d5;
+    padding: 2rem 0;
   }
 
   .newsletter-div {
@@ -354,6 +369,10 @@
   .view-news {
     display: none;
   }
+  .div-map-locate {
+    background-color: #d6d5d5;
+    padding: 2rem 0;
+  }
 }
 
 @media (max-width: 480px) {
@@ -373,5 +392,10 @@
 
   .view-news {
     display: none;
+  }
+
+  .div-map-locate {
+    background-color: #d6d5d5;
+    padding: 2rem 0;
   }
 }
