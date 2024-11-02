@@ -171,6 +171,26 @@
 
   .nav-icons {
     display: none;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    row-gap: 1.5rem;
+    position: absolute;
+    background-color: rgba(10, 33, 57, 0.895);
+    top: 82px;
+    height: 100vh;
+    right: 0;
+    width: 55%;
+    padding-top: 2rem;
+    z-index: 5;
+  }
+
+  .nav-icons.active {
+    display: flex;
+  }
+
+  .nav-icons li {
+    margin-bottom: 1rem;
   }
 
   .burger {
