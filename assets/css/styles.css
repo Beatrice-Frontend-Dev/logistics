@@ -444,6 +444,11 @@ section {
   align-items: baseline;
   row-gap: 1rem;
 }
+
+.mail-call {
+  row-gap: 0.6rem;
+}
+
 .about1 {
   font-size: 1.8rem;
   text-decoration: underline;
