@@ -18,12 +18,18 @@
 @media (max-width: 960px) {
   .part1 {
     position: relative;
-    height: 40rem;
+    height: 36rem;
     width: 100%;
     background-image: url("../images/test1.webp");
     background-size: cover;
     background-position: top center;
     background-repeat: no-repeat;
+  }
+
+  .overlay {
+    height: 36rem;
+    width: 100%;
+    background-color: rgba(52, 58, 64, 0.4);
   }
 
   .top {
@@ -155,12 +161,18 @@
 
   .part1 {
     position: relative;
-    height: 40rem;
+    height: 31rem;
     width: 100%;
     background-image: url("../images/test1.webp");
     background-size: cover;
     background-position: top center;
     background-repeat: no-repeat;
+  }
+
+  .overlay {
+    height: 31rem;
+    width: 100%;
+    background-color: rgba(52, 58, 64, 0.4);
   }
 
   .header,
@@ -177,10 +189,10 @@
     row-gap: 1.5rem;
     position: absolute;
     background-color: rgba(10, 33, 57, 0.895);
-    top: 82px;
+    top: 87px;
     height: 100vh;
     right: 0;
-    width: 55%;
+    width: 58%;
     padding-top: 2rem;
     z-index: 5;
   }
